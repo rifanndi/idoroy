@@ -2,6 +2,7 @@ import Card from "./Card";
 import BBQ from "../img/BBQ.png";
 import Hardwood from "../img/Hardwood.png";
 import SHISHA from "../img/SHISHA.png";
+import MyCustomCarousel from "./produkgrid";
 
 function Services() {
   return (
@@ -37,6 +38,7 @@ function Services() {
             </div>
           </div>
         </div>
+        <MyCustomCarousel />
       </div>
     </div>
   );
