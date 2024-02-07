@@ -1,0 +1,24 @@
+function Card(props) {
+  return (
+    <div className="card">
+      <br />
+
+      <div className="text-center">
+        <img alt="card-img" src={props.img} className="text-center img-fluid" />
+      </div>
+      <div className="text-center">
+        <h3 className="card-title">{props.title}</h3>
+      </div>
+      <div className="text-center p-3">
+        <p className="card-text">{props.text}</p>
+      </div>
+      <div className="text-center">
+        <button className="btn btn-primary" style={{ cursor: "pointer" }}>
+          Detail
+        </button>
+      </div>
+    </div>
+  );
+}
+
+export default Card;

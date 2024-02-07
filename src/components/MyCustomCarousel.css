@@ -1,0 +1,56 @@
+/* MyCustomCarousel.css */
+
+.custom-carousel-container {
+  position: relative;
+  width: 100%;
+ 
+  overflow: hidden;
+  margin-bottom: 0%;
+}
+
+.carousel-inner {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  align-items: center; /* Menengahkan gambar vertikal di dalam carousel */
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+}
+
+.carousel-item img {
+  width: 120px; /* Ubah lebar gambar menjadi 100% */
+  display: block; /* Menghilangkan whitespace di sekitar gambar */
+  margin: 0 auto; /* Menengahkan gambar secara horizontal di dalam carousel item */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  position: absolute;
+  top: 0%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.carousel-control-prev {
+  left: 10px;
+}
+
+.carousel-control-next {
+  right: 10px;
+}
+
+/* Active class for the active item */
+.carousel-item.active {
+  opacity: 1;
+  transform: translateX(0);
+
+/* Transition effect for sliding */
+.carousel-inner {
+  transition: transform 0.5s ease-in-out;
+}
