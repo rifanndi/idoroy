@@ -161,9 +161,9 @@ code {
 .burger {
   transition: all 0.2s;
 
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.45rem;
   width: 25px;
-  height: 2px;
+  height: 3px;
   background-color: white;
 }
 /* Header */
@@ -182,7 +182,7 @@ video {
   height: 100vh;
   z-index: 0;
   top: 0;
-
+  background-color: black;
   opacity: 0.7;
 }
 header {
@@ -212,6 +212,7 @@ header h1 {
   font-weight: 500;
 }
 main {
+  padding: 3rem 0;
   background-color: #fafafa;
   width: 100%;
 }
@@ -285,14 +286,15 @@ footer ul li a {
 }
 .gotop {
   transition: all 0.2s;
-  background-color: #16cf8b;
+  background-color: #01bf71;
   position: fixed;
-  border-radius: 100%;
-  padding: 8px;
+  border-radius: 25px;
+  padding: 1rem;
   border: 0;
   opacity: 0;
   outline: 0;
   cursor: pointer;
+  font-weight: 1000;
   box-shadow: 0px 0px 5px 0.2px #000000;
   color: white;
   bottom: 20px;
@@ -331,7 +333,7 @@ ul li a {
   cursor: pointer;
 }
 .about {
-  margin-bottom: 1rem;
+  margin-bottom: 15rem;
 }
 .card-cover {
   padding: 2rem 0rem;
@@ -432,7 +434,7 @@ ul li a {
     width: 55.9% !important;
   }
 }
-@media (max-width: 476px) {
+@media (max-width: 576px) {
   .col-md-4:first-child {
     margin-right: 0;
   }
@@ -440,11 +442,11 @@ ul li a {
     margin-left: 0;
   }
   .services .col-md-4 {
-    margin: 0rem auto !important;
+    margin: 2rem auto !important;
     width: 87.9% !important;
   }
   .col-md-4 {
-    width: 10% !important;
+    width: 100% !important;
   }
   .contact .col-md-4 {
     margin: none !important;
