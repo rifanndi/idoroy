@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-
+import "../css/MyCustomCarousel.css"; // Impor file CSS Anda
 import card1 from "../img/card1.png";
 import card2 from "../img/card2.png";
 import card3 from "../img/card3.png";
