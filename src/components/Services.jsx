@@ -21,7 +21,7 @@ function Services() {
                 We carry out the process of grinding coconut charcoal  with binder particles tapioca starch . After the process of mixing all these ingredients, we do heating until 48 hours to make quality hookah charcoal. Visit our hookah charcoal factory and get a free sample now!. "
               />
             </div>
-            <div className="col-md-4 mb-6">
+            <div className="col-md-4 mb-2">
               <Card
                 title="BBQ Charcoal"
                 img={BBQ}
