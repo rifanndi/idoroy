@@ -37,7 +37,6 @@ function Navbar() {
           <h3
             className="logo"
             style={{
-              fontFamily: "YourChosenFont, sans-serif",
               marginTop: "3px",
             }}
           >

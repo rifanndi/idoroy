@@ -10,9 +10,9 @@ function Services() {
         <p className="main-title text-center">
           <b>Discover Our Product</b>
         </p>
-        <div className="row">
-          <div className="col-md-12">
-            <div className="col-md-4 mb-2">
+        <div className="col-md-12">
+          <div className="row">
+            <div className="col-md-4 mb-12">
               <Card
                 title="Shisha Charcoal"
                 img={SHISHA}

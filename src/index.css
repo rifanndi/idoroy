@@ -65,7 +65,7 @@ code {
   color: white;
   font-weight: 500;
   z-index: 1;
-  background-color: #01bf71;
+  background-color: #d7a423;
   padding: 10px 50px;
   margin: 0 0.5rem;
 }
@@ -100,10 +100,10 @@ code {
   background-color: #010606 !important;
 }
 .navopened .logo {
-  color: #fafafa !important;
+  color: #d7a423 !important;
 }
 .navopened ul li a {
-  color: #fafafa !important;
+  color: #d7a423 !important;
 }
 .navopened .burger {
   background-color: #010606 !important;
@@ -112,6 +112,7 @@ code {
   transition: background-color 0.4s;
   position: fixed;
   top: 0;
+  font-family: "Permanent Marker";
   width: 100%;
   padding: 0.5rem;
   background-color: transparent;
@@ -120,10 +121,10 @@ code {
 }
 .navbar .logo {
   transition: all 0.2s;
-
+  font-family: "Permanent Marker", cursive;
   align-items: center;
   align-content: center;
-  color: rgb(243, 243, 243);
+  color: #d7a423;
   letter-spacing: 2px;
   font-weight: 400;
   margin: 0;
@@ -142,11 +143,11 @@ code {
 }
 .navbar ul li a {
   transition: all 0.2s;
-  font-size: 20px;
+  font-size: 18px;
   cursor: pointer;
 
   text-decoration: none;
-  color: rgb(243, 243, 243);
+  color: #d7a423;
   font-weight: 500;
 }
 .button {
@@ -164,7 +165,7 @@ code {
   margin-bottom: 0.4rem;
   width: 25px;
   height: 2px;
-  background-color: white;
+  background-color: #d7a423;
 }
 /* Header */
 video {
@@ -196,7 +197,7 @@ header {
 }
 header h1 {
   z-index: 1;
-  color: white;
+  color: #d7a423;
   font-size: 64px;
 }
 .opened {
@@ -205,7 +206,7 @@ header h1 {
 /* main */
 .main-title {
   font-size: 48px;
-  color: #01bf71;
+  color: #d7a423;
 }
 .main-p {
   font-size: 22px;
@@ -217,12 +218,12 @@ main {
 }
 /* footer */
 .text-white {
-  color: white;
+  color: #d7a423;
 }
 .footer-top {
   margin: 0;
   padding: 0.1rem 0;
-  background-color: #01bf71;
+  background-color: #d7a423;
 }
 .footer-top p {
   font-size: 18px;
@@ -250,34 +251,38 @@ footer .col-md-3 {
   height: 100%;
 }
 footer .logo {
+  font-family: "Permanent Marker", cursive;
   transition: all 0.2s;
   margin-bottom: 0;
   align-items: center;
   align-content: center;
-  color: rgb(243, 243, 243);
+  color: #d7a423;
   letter-spacing: 2px;
   font-weight: 400;
 
-  font-size: 28px;
+  font-size: 24px;
 }
 .logo a {
   text-decoration: none;
-  color: #fafafa;
+  color: #d7a423;
 }
 .footer-title {
-  color: #fafafa;
+  color: #d7a423;
+  font-family: "Permanent Marker", cursive;
   font-weight: 600;
   font-size: 22px;
   margin-bottom: 0;
   word-wrap: initial;
 }
 footer ul {
+  font-family: "Permanent Marker", cursive;
   list-style: none;
   margin-left: 0;
   padding-left: 0;
   margin-top: 2.5px;
 }
 footer ul li a {
+  font-family: "Permanent Marker", cursive;
   text-decoration: none;
   color: #919191;
   font-size: 18px;
@@ -300,8 +305,9 @@ footer ul li a {
 }
 /* Services */
 .card-title {
-  color: #01bf71;
+  color: #d7a423;
   font-size: 24px;
+  font-family: "Permanent Marker", cursive;
 }
 .p-3 {
   padding: 0.25rem 1rem;
@@ -365,13 +371,13 @@ ul li a {
   width: 100%;
   font-weight: 500;
   z-index: 1;
-  background-color: #01bf71;
+  background-color: #d7a423;
   padding: 10px 50px;
 
   transition: background-color 0.2s;
 }
 .contact-textarea {
-  color: white;
+  color: #d7a423;
   border-radius: 5px;
   padding: 15px 0px 10px 5px;
   font-size: 20px;

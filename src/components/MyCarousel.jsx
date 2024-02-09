@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import Judul from "../img/Judul.png";
-import card2 from "../img/card2.png";
-import card3 from "../img/card3.png";
+import ca4 from "../img/ca4.png";
+import ca2 from "../img/ca2.png";
+import ca3 from "../img/ca3.png";
 
 const MyCustomCarousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -19,9 +19,9 @@ const MyCustomCarousel = () => {
   };
 
   const items = [
-    { id: 1, src: Judul, alt: "Judul 1" },
-    { id: 2, src: Judul, alt: "Image 2" },
-    { id: 3, src: Judul, alt: "Image 3" },
+    { id: 1, src: ca4, alt: "Judul 1" },
+    { id: 2, src: ca2, alt: "Image 2" },
+    { id: 3, src: ca3, alt: "Image 3" },
   ];
 
   useEffect(() => {
