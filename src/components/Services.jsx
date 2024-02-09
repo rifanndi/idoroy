@@ -2,7 +2,7 @@ import Card from "./Card";
 import BBQ from "../img/BBQ.png";
 import Hardwood from "../img/Hardwood.png";
 import SHISHA from "../img/SHISHA.png";
-import MyCustomCarousel from "./produkgrid";
+import MyCustomCarousell from "./produkgrid";
 
 function Services() {
   return (
@@ -11,7 +11,7 @@ function Services() {
         <p className="main-title text-center">
           <b>Discover Our Product</b>
         </p>
-        <MyCustomCarousel />
+        <MyCustomCarousell />
         <div className="col-md-12">
           <div className="row">
             <div className="col-md-4 mb-12">

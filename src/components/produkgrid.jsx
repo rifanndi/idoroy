@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import ca1 from "../img/ca1.png";
 import judul from "../img/judul.png";
 
-const MyCustomCarousel = () => {
+const MyCustomCarousell = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handlePrev = () => {
@@ -103,4 +103,4 @@ const MyCustomCarousel = () => {
   );
 };
 
-export default MyCustomCarousel;
+export default MyCustomCarousell;
