@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
-import "./MyCustomCarousel.css"; // Impor file CSS Anda
-import card1 from "../img/card1.png";
-import card2 from "../img/card2.png";
-import card3 from "../img/card3.png";
+import ca1 from "../img/ca1.png";
+import judul from "../img/judul.png";
 
 const MyCustomCarousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -20,9 +18,9 @@ const MyCustomCarousel = () => {
   };
 
   const items = [
-    { id: 1, src: card1, alt: "Image 1" },
-    { id: 2, src: card2, alt: "Image 2" },
-    { id: 3, src: card3, alt: "Image 3" },
+    { id: 1, src: ca1, alt: "Judul 1" },
+    { id: 2, src: judul, alt: "Image 2" },
+    { id: 3, src: ca1, alt: "Image 3" },
   ];
 
   useEffect(() => {
@@ -37,6 +35,57 @@ const MyCustomCarousel = () => {
 
   return (
     <div className="custom-carousel-container">
+      <style jsx>{`
+        .custom-carousel-container {
+          position: relative;
+          width: 100%;
+          overflow: hidden;
+          margin-bottom: 0%;
+        }
+
+        .carousel-inner {
+          display: flex;
+          transition: transform 0.5s ease-in-out;
+          align-items: center;
+        }
+
+        .carousel-item {
+          flex: 0 0 100%;
+        }
+
+        .carousel-item img {
+          width: 380px;
+          display: block;
+          margin: 0 auto;
+        }
+
+        .carousel-control-prev,
+        .carousel-control-next {
+          position: absolute;
+          top: 0%;
+          transform: translateY(-50%);
+          font-size: 2rem;
+          background: rgba(0, 0, 0, 0.5);
+          color: #fff;
+          border: none;
+          cursor: pointer;
+          padding: 10px;
+        }
+
+        .carousel-control-prev {
+          left: 10px;
+        }
+
+        .carousel-control-next {
+          right: 10px;
+        }
+
+        /* Active class for the active item */
+        .carousel-item.active {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      `}</style>
       <div
         className="carousel-inner"
         style={{ transform: `translateX(-${activeIndex * 100}%)` }}
