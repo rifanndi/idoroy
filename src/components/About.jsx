@@ -39,7 +39,7 @@ const About = () => {
               rel="noopener noreferrer" // Security best practice for target="_blank" links
             >
               <button className="btn" style={{ cursor: "pointer" }}>
-                free symbol sample
+                free sample Now
               </button>
             </a>
           </div>
