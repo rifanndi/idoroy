@@ -11,11 +11,10 @@ const Header = () => {
     <header>
       <video src={Vidi} loop autoPlay muted></video>
       <h1>Best Charcoal Briquettes in Indonesia</h1>
-      <p style={{ color: "white" }}>
-        Experience the art of grilling with Java Charcoal's premium charcoal
-        briquettes in Indonesia. Immerse yourself in the unmatched quality that
-        defines our product, <br /> carefully crafted to elevate your grilling
-        endeavors. <br />
+      <p style={{ color: "white", marginLeft: "28px" }}>
+        Experience the art of grilling with Indo Royal Charcoal's premium
+        charcoal briquettes in Indonesia. Immerse yourself in the unmatched
+        quality that defines our product,
       </p>
       <div className="row">
         {/* Scroll to "about-scroll" section */}

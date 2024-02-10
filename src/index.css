@@ -112,7 +112,7 @@ code {
   transition: background-color 0.4s;
   position: fixed;
   top: 0;
-  font-family: "Permanent Marker";
+  font-family: "Permanent Marker", cursive;
   width: 100%;
   padding: 0.5rem;
   background-color: transparent;
