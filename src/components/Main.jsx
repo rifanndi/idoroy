@@ -9,9 +9,9 @@ function Main() {
     <>
       <main>
         <MyCustomCarousel />
-        <MyCustomCarousell />
+
         <Services />
-        <MyCustomCarousell />
+
         <About />
       </main>
     </>
