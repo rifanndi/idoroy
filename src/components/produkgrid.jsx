@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import ca1 from "../img/ca1.png";
-import judul from "../img/judul.png";
+import ca6 from "../img/ca6.png";
 
 const MyCustomCarousell = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -19,7 +19,7 @@ const MyCustomCarousell = () => {
 
   const items = [
     { id: 1, src: ca1, alt: "Judul 1" },
-    { id: 2, src: judul, alt: "Image 2" },
+    { id: 2, src: ca6, alt: "Image 2" },
     { id: 3, src: ca1, alt: "Image 3" },
   ];
 
