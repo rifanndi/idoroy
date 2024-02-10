@@ -13,9 +13,15 @@ function Card(props) {
         <p className="card-text">{props.text}</p>
       </div>
       <div className="text-center">
-        <button className="btn btn-primary" style={{ cursor: "pointer" }}>
-          Detail
-        </button>
+        <a
+          href="https://wa.me/message/DDFS53IPYRVRE1"
+          target="_blank" // Open link in a new tab
+          rel="noopener noreferrer" // Security best practice for target="_blank" links
+        >
+          <button className="btn btn-primary" style={{ cursor: "pointer" }}>
+            Get Quwote Now
+          </button>
+        </a>
       </div>
     </div>
   );
