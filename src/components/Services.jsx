@@ -3,13 +3,17 @@ import BBQ from "../img/BBQ.png";
 import Hardwood from "../img/Hardwood.png";
 import SHISHA from "../img/SHISHA.png";
 import MyCustomCarousell from "./produkgrid";
+import Sesuai from "./sesuaipesana";
+import Gallery from "./sepesifikasi";
+import ShippingDetail from "./ShippingDetail";
+import Peking from "./peking";
 
 function Services() {
   return (
     <div className="container services">
       <div className="card-cover">
         <p className="main-title text-center">
-          <b>Discover Our Product</b>
+          <b>Discover Our Product </b>
         </p>
         <MyCustomCarousell />
         <div className="col-md-12">
@@ -39,6 +43,10 @@ function Services() {
             </div>
           </div>
         </div>
+        <Sesuai />
+        <Gallery />
+        <Peking />
+        <ShippingDetail />
       </div>
     </div>
   );

@@ -251,7 +251,6 @@ footer .col-md-3 {
   height: 100%;
 }
 footer .logo {
-  font-family: "Permanent Marker", cursive;
   transition: all 0.2s;
   margin-bottom: 0;
   align-items: center;
@@ -259,7 +258,7 @@ footer .logo {
   color: #d7a423;
   letter-spacing: 2px;
   font-weight: 400;
-
+  font-family: "Permanent Marker", cursive;
   font-size: 24px;
 }
 .logo a {
@@ -268,21 +267,19 @@ footer .logo {
 }
 .footer-title {
   color: #d7a423;
-  font-family: "Permanent Marker", cursive;
+
   font-weight: 600;
   font-size: 22px;
   margin-bottom: 0;
   word-wrap: initial;
 }
 footer ul {
-  font-family: "Permanent Marker", cursive;
   list-style: none;
   margin-left: 0;
   padding-left: 0;
   margin-top: 2.5px;
 }
 footer ul li a {
-  font-family: "Permanent Marker", cursive;
   text-decoration: none;
   color: #919191;
   font-size: 18px;
@@ -307,7 +304,6 @@ footer ul li a {
 .card-title {
   color: #d7a423;
   font-size: 24px;
-  font-family: "Permanent Marker", cursive;
 }
 .p-3 {
   padding: 0.25rem 1rem;
