@@ -3,10 +3,7 @@ import coconutcharcoalpacking from "../img/coconutcharcoalpacking.png";
 const Peking = () => {
   return (
     <>
-      <div
-        style={{ marginTop: "4rem", width: "100%", height: "50%" }}
-        className="about-scroll"
-      >
+      <div style={{ width: "100%", height: "0%" }} className="">
         <div>
           <div className="row">
             <div style={{ marginTop: "12%" }} className="col-md-6 text-center">

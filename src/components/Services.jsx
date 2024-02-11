@@ -42,11 +42,11 @@ function Services() {
               />
             </div>
           </div>
+          <Sesuai />
+          <Gallery />
+          <Peking />
+          <ShippingDetail />
         </div>
-        <Sesuai />
-        <Gallery />
-        <Peking />
-        <ShippingDetail />
       </div>
     </div>
   );

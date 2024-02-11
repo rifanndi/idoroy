@@ -1,4 +1,5 @@
-import Abut from "../img/Abut.png";
+import about from "../img/about.jpg";
+import MyCustomCarousel from "./MyCarousel";
 
 const About = () => {
   return (
@@ -9,17 +10,17 @@ const About = () => {
       ></div>
 
       <div className="container about">
-        <div className="row">
-          <div style={{ marginTop: "30%" }} className="col-md-6 text-center">
-            <img alt="about" src={Abut} className="img-fluid" />
+        <div className="row" style={{ gap: "10px" }}>
+          <div style={{ marginTop: "10%" }} className="col-md-6 text-center">
+            <img alt="about" src={about} style={{ width: "60%" }} />
           </div>
 
           <div className="col-md-6">
             <p className="main-title ">
               Abaut us
               <br />
-              <b>WE ARE THE BEST SUPPLIER OF CHARCOAL BRIQUETTE</b>
             </p>
+            <b>WE ARE THE BEST SUPPLIER OF CHARCOAL BRIQUETTE</b>
             <p className="main-p">
               CV Djavacoal Indonesia is a exporter of premium Coconut Charcoal
               Briquette , BBQ Charcoal Briquette and Sawdust Charcoal briquette.
@@ -44,6 +45,7 @@ const About = () => {
             </a>
           </div>
         </div>
+        <MyCustomCarousel />{" "}
       </div>
     </>
   );

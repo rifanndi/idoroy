@@ -55,7 +55,7 @@ const MyCustomCarousel = () => {
         }
 
         .carousel-item img {
-          width: 380px;
+          width: 100%;
           display: block;
           margin: 0 auto;
         }

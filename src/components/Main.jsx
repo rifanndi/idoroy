@@ -8,8 +8,6 @@ function Main() {
   return (
     <>
       <main>
-        <MyCustomCarousel />
-
         <Services />
 
         <About />

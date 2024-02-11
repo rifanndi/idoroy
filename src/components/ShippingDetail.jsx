@@ -1,14 +1,14 @@
-import coconutcharcoalpacking from "../img/coconutcharcoalpacking.png";
+import kon from "../img/kon.jpg";
 
 const ShippingDetail = () => {
   return (
     <>
-      <div className="">
+      <div className="" style={{}}>
         <div className="row">
           <div style={{ marginTop: "12%" }} className="col-md-6 text-center">
             <img
               alt="about"
-              src={coconutcharcoalpacking}
+              src={kon}
               className="img-fluid"
               style={{ width: "100%" }}
             />

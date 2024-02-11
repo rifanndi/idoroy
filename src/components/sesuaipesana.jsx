@@ -3,12 +3,9 @@ import semua from "../img/semua.jpeg";
 const Sesuai = () => {
   return (
     <>
-      <div
-        style={{ marginTop: "4rem", width: "100%", height: "10px" }}
-        className="about-scroll"
-      ></div>
+      <div style={{ marginTop: "4rem", width: "100%", height: "10px" }}></div>
 
-      <div className="container about">
+      <div>
         <div className="row align-items-center">
           <div className="col-md-6 text-center">
             <p className="main-p">
