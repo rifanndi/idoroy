@@ -22,17 +22,18 @@ const About = () => {
             </p>
             <b>WE ARE THE BEST SUPPLIER OF CHARCOAL BRIQUETTE</b>
             <p className="main-p">
-              CV Djavacoal Indonesia is a exporter of premium Coconut Charcoal
-              Briquette , BBQ Charcoal Briquette and Sawdust Charcoal briquette.
-              We are committed to being an innovative company and actively
-              operating in the international briquette industry serving the
-              needs of partners and building the Indonesian economy. Apart from
-              producing cocounut briquettes for hookah / shisha, we also provide
-              wood briquette for barbeque, Hardwoods from mahony and halabn and
-              a variety of other hardwoods that are widely needed for export to
-              various countries. With our experience in the charcoal industry,
-              We look forward to collaborating and cooperating with your company
-              in the future.
+              Indo Royal Charcoal is a leading exporter specializing in premium
+              Coconut Charcoal Briquettes, BBQ Charcoal Briquettes, and Sawdust
+              Charcoal Briquettes. Committed to innovation, we actively engage
+              in the international briquette industry, catering to the needs of
+              our partners while contributing to the Indonesian economy. In
+              addition to manufacturing coconut charcoal briquettes for
+              hookah/shisha, we also supply wood charcoal briquettes for
+              barbecue, sourced from hardwoods such as mahogany and halaban,
+              along with various other hardwoods in high demand for export to
+              diverse countries. With our extensive experience in the charcoal
+              industry, we eagerly anticipate collaborating and cooperating with
+              your esteemed company in the future.
             </p>
             <a
               href="https://wa.me/message/DDFS53IPYRVRE1"
