@@ -1,4 +1,4 @@
-import about from "../img/about.jpg";
+import aboutt from "../img/aboutt.png";
 import MyCustomCarousel from "./MyCarousel";
 
 const About = () => {
@@ -12,7 +12,7 @@ const About = () => {
       <div className="container about">
         <div className="row" style={{ gap: "10px" }}>
           <div style={{ marginTop: "10%" }} className="col-md-6 text-center">
-            <img alt="about" src={about} style={{ width: "60%" }} />
+            <img alt="about" src={aboutt} style={{ width: "100%" }} />
           </div>
 
           <div className="col-md-6">

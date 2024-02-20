@@ -11,7 +11,9 @@ function Footer() {
               <div className="col-md-3">
                 <h1 className="logo">Indo Royal Charcol</h1>
                 <p className="footer-text">
-                  Lorem ipsum Here are thirteen health benefits of apples Lorem
+                  Indo Royal Charcoal is a leading exporter specializing in
+                  premium Coconut Charcoal Briquettes, BBQ Charcoal Briquettes,
+                  and Sawdust Charcoal Briquettes.
                 </p>
               </div>
               <div className="col-md-3">

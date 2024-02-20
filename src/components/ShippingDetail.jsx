@@ -1,4 +1,4 @@
-import kon from "../img/kon.jpg";
+import konn from "../img/konn.jpg";
 
 const ShippingDetail = () => {
   return (
@@ -8,7 +8,7 @@ const ShippingDetail = () => {
           <div style={{ marginTop: "12%" }} className="col-md-6 text-center">
             <img
               alt="about"
-              src={kon}
+              src={konn}
               className="img-fluid"
               style={{ width: "100%" }}
             />
