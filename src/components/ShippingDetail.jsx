@@ -3,17 +3,8 @@ import konn from "../img/konn.jpg";
 const ShippingDetail = () => {
   return (
     <>
-      <div className="" style={{}}>
-        <div className="row">
-          <div style={{ marginTop: "12%" }} className="col-md-6 text-center">
-            <img
-              alt="about"
-              src={konn}
-              className="img-fluid"
-              style={{ width: "100%" }}
-            />
-          </div>
-
+      <div className="" style={{ marginTop: "1%" }}>
+        <div className="row" style={{}}>
           <div className="col-md-6">
             <p className="main-title ">
               <br />
@@ -38,6 +29,15 @@ const ShippingDetail = () => {
                 Get a aQuote Now !
               </button>
             </a>
+          </div>
+
+          <div style={{ marginTop: "12%" }} className="col-md-6 text-center">
+            <img
+              alt="about"
+              src={konn}
+              className="img-fluid"
+              style={{ width: "100%", marginBottom: "-18%" }}
+            />
           </div>
         </div>
       </div>

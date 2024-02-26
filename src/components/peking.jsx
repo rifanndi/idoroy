@@ -1,17 +1,24 @@
 import coconutcharcoalpacking from "../img/coconutcharcoalpacking.png";
+import ShippingDetail from "./ShippingDetail";
 
 const Peking = () => {
   return (
     <>
-      <div style={{ width: "100%", height: "0%" }} className="">
+      <div
+        style={{ width: "100%", height: "0%", marginTop: "-1%" }}
+        className=""
+      >
         <div>
           <div className="row">
-            <div style={{ marginTop: "12%" }} className="col-md-6 text-center">
+            <div
+              style={{ marginTop: "12%", marginBottom: "" }}
+              className="col-md-6 text-center"
+            >
               <img
                 alt="about"
                 src={coconutcharcoalpacking}
                 className="img-fluid"
-                style={{ width: "100%" }}
+                style={{ width: "100%", marginBottom: "-18%" }}
               />
             </div>
 

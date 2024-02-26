@@ -55,11 +55,26 @@ const MyCustomCarousel = () => {
         }
 
         .carousel-item img {
-          width: 100%;
+          width: 55%; /* Lebar default */
+          height: auto; /* Tetapkan tinggi otomatis agar gambar tidak terdistorsi */
           display: block;
           margin: 0 auto;
         }
 
+        @media only screen and (max-width: 768px) {
+          /* Ketika layar berukuran maksimum 768px (ukuran ponsel), ubah lebar gambar menjadi 100% */
+          .carousel-item img {
+            width: 100%;
+          }-width: 1200px) {
+          /* Ketika layar berukuran minimum 769px (ukuran laptop atau yang lebih besar), ubah lebar gambar menjadi 80% */
+          .carousel-item img {
+            width: 50%;
+          }
+        }
+
+        }
+
+        @media only screen and (min
         .carousel-control-prev,
         .carousel-control-next {
           position: absolute;
@@ -96,7 +111,10 @@ const MyCustomCarousel = () => {
             key={item.id}
             className={`carousel-item ${index === activeIndex ? "active" : ""}`}
           >
-            <img src={item.src} alt={item.alt} />
+            <div style={{ height: "190px" }}>
+              {" "}
+              <img src={item.src} alt={item.alt} />
+            </div>
           </div>
         ))}
       </div>

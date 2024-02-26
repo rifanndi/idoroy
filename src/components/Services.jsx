@@ -5,8 +5,8 @@ import SHISHA from "../img/SHISHA.png";
 import MyCustomCarousell from "./produkgrid";
 import Sesuai from "./sesuaipesana";
 import Gallery from "./sepesifikasi";
-import ShippingDetail from "./ShippingDetail";
-import Peking from "./peking";
+//mport ShippingDetail from "./ShippingDetail";
+//import Peking from "./peking";
 
 function Services() {
   return (
@@ -44,8 +44,6 @@ function Services() {
           </div>
           <Sesuai />
           <Gallery />
-          <Peking />
-          <ShippingDetail />
         </div>
       </div>
     </div>

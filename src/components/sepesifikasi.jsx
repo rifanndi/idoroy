@@ -5,6 +5,8 @@ import serbuk4 from "../img/serbuk4.png";
 import wood3 from "../img/wood3.png";
 import tasik from "../img/tasik.png";
 import box5 from "../img/box5.png";
+import Peking from "./peking";
+import ShippingDetail from "./ShippingDetail";
 const Gallery = () => {
   const isLaptop = window.innerWidth >= 1024;
 
@@ -51,6 +53,8 @@ const Gallery = () => {
       </div>
       <img src={box5} style={{ width: "80%", marginTop: "10px" }} />
       <img src={tasik} alt="Gambar 4" style={{ width: "100%" }} />
+      <Peking />
+      <ShippingDetail />
     </div>
   );
 };

@@ -1,9 +1,18 @@
 import aboutt from "../img/aboutt.png";
 import MyCustomCarousel from "./MyCarousel";
+import FullWidthGrid from "./gridimg";
 
 const About = () => {
   return (
     <>
+      <hr
+        style={{
+          borderTop: "5px solid",
+          margin: "0",
+          color: "black",
+          marginTop: "100px",
+        }}
+      />
       <div
         style={{ marginTop: "4rem", width: "100%", height: "10px" }}
         className="about-scroll"
@@ -46,7 +55,7 @@ const About = () => {
             </a>
           </div>
         </div>
-        <MyCustomCarousel />{" "}
+        <MyCustomCarousel /> <FullWidthGrid />
       </div>
     </>
   );
