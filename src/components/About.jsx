@@ -1,6 +1,7 @@
 import aboutt from "../img/aboutt.png";
 import MyCustomCarousel from "./MyCarousel";
 import FullWidthGrid from "./gridimg";
+import CompanyTeam from "./tim";
 
 const About = () => {
   return (
@@ -55,7 +56,7 @@ const About = () => {
             </a>
           </div>
         </div>
-        <MyCustomCarousel /> <FullWidthGrid />
+        <MyCustomCarousel /> <FullWidthGrid /> <CompanyTeam />
       </div>
     </>
   );
