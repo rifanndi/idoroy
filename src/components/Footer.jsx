@@ -11,7 +11,7 @@ function Footer() {
               <div className="col-md-3">
                 <h1 className="logo">Indo Royal Charcol</h1>
                 <p className="footer-text">
-                  Indo Royal Charcoal is a leading exporter specializing in
+                  Indo Roy Charcoal is a leading exporter specializing in
                   premium Coconut Charcoal Briquettes, BBQ Charcoal Briquettes,
                   and Sawdust Charcoal Briquettes.
                 </p>
@@ -64,7 +64,7 @@ function Footer() {
                 <p className="footer-title">Contact</p>
                 <ul>
                   <li>
-                    <Link to="#">Rifa@IndoroyalCharoal.com</Link>
+                    <Link to="#">Rifa@IndoroyCharoal.com</Link>
                   </li>
                   <li>
                     <Link to="#"></Link>
